@@ -1,0 +1,24 @@
+/* tablet layout*/
+@media only screen and (min-width:200px) and (max-width:991px) {  
+ .logo_area {width: 25%;margin: 0 35%;} 
+   .text_area h2 {font-size: 16px;} 
+   .mean-container .mean-bar {background: #69788d;}
+    
+}
+
+/*Mobile layout*/
+@media only screen and (min-width:200px) and (max-width:480px){
+    
+   .header_area { padding: 15px 0;}
+	.text_area h2 {font-size: 12px;padding: 10px 2px;}  
+    #slider_area {margin-top: 5px;}
+    .bx-wrapper {margin-bottom: 10px;}
+	.child_work {width: 96%; margin: 0px 2%;}
+   .profile_area { width: 29%;margin: 10px 2%;}
+   .child_img img {padding: 0px 0;margin: 15px 1.6%;width: 30%;}  
+    .child_footer {width: 98%;margin: 0px 1%;}
+ .company_contact .contact_area {width: 100%;margin-right: 0;}   
+.left_copyright {width: 100%;padding-bottom: 0px}    
+.right_copyright {width: 100%;text-align: left;}     
+#service_area {padding: 5px 0;}
+} 

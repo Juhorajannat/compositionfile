@@ -1,0 +1,479 @@
+/*############################################################################################################################################
+      common css
+############################################################################################################################################*/
+body{
+   color: #979797;
+    background:#ffffff;
+    font-size:14px ;
+   font-family: "Georgia",serif;
+    line-height: 1.5em;
+    margin: 0;
+    padding:0;
+}
+.container{
+    margin: 0 auto;
+    max-width: 960px;
+    width: 96%;
+    padding: 0
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/*############################################################################################################################################
+      header area css
+############################################################################################################################################*/
+
+#Header_area{
+    
+    clear: both;
+    width:98%;
+    
+}
+.header_area {
+    padding: 40px 0;
+    min-height: 30px;
+
+}
+.logo_area{
+    
+   float: left;
+    width:18%;
+    position: absolute;
+   
+}
+.main_menu {
+    float: right;
+    padding:5px 0;
+     margin-left:2%
+}
+
+.main_menu ul{
+    background: #e2494b;
+    list-style: none;
+     max-width: 580px;
+    width:96%;
+    text-align:left;
+   border-radius:15px;
+    margin: 0px 0px 
+    
+    
+
+}
+.main_menu ul li{
+     display: inline-block;
+    margin: 10px ;
+    position: relative;
+}
+.main_menu ul li a{
+    color: aliceblue;
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: none;
+    display:block;
+    border-radius:0;
+    padding: 3px;
+   
+
+}
+.main_menu ul li a:hover{
+    color:#c1b2b2;
+}
+.main_menu ul li:hover a{
+    color:#c1b2b2;
+}
+
+.main_menu ul li:hover ul li a{
+    color:#fff;}
+
+
+/*###########   dropdown menu  #######*/
+
+.main_menu ul ul{
+    background:#e59e16; 
+    position: absolute;
+     margin: 0;
+    padding: 0px;
+    width: 180px;
+    top: 20px;
+    border-radius:0; 
+    left: -99999px;
+   text-align: center
+}
+
+
+.main_menu ul li:hover ul{
+    left: 0;
+}
+.main_menu ul ul li{
+    display:block;
+    margin:0;
+}
+.main_menu ul ul li:hover a{
+    background: black;
+    color:#fff;
+}
+
+.main_menu ul li:hover ul ul {
+    left: -99999px
+}
+
+.main_menu ul ul ul{
+    left:-99999px;
+    top: 0
+   
+    
+}
+
+.main_menu ul  li ul li:hover ul{
+    left:-179px;
+   
+   
+    
+}
+
+
+.main_menu ul ul li a:hover {
+    background: black;
+    color: #fff;
+}
+
+.main_menu ul ul li:hover a {
+    background: black;
+    color: #fff;
+}
+
+.main_menu ul ul li:hover ul li a {
+    background: none;
+    color: #fff;
+}
+
+.main_menu ul ul li ul li a:hover {
+    background: #333;
+    color: #fff
+}
+
+/*############################################################################################################################################
+      top text area css
+############################################################################################################################################*/
+
+#text_area{
+    clear: both;
+}
+
+.text_area{
+
+    width:100%
+}
+.text_area h2{
+    color: #333333;
+    font-size: 22px;
+    font-weight: 50;
+    padding: 40px 122px;
+    text-align: center;
+    border-top: 1px solid #e2e2e2
+    
+}
+
+
+/*############################################################################################################################################
+      slider area css
+############################################################################################################################################*/
+
+#slider_area{
+    margin-top: 20px;
+}
+
+
+/*############################################################################################################################################
+      service area css
+############################################################################################################################################*/
+#service_area{
+    padding:20px 0;
+    
+}
+.inner_service{
+   overflow: hidden;
+  
+}
+
+ .inner_service .service_img{
+    width:99%;
+    margin: 20px 0;
+  
+}
+
+
+.child_work{
+    width: 32%;
+    float: left;
+    margin:20px 1%;
+    position: relative
+}
+.child_work .img_area{
+    float: left;
+    width: 20%
+}
+.child_work .text_area h3{
+  color: #000;
+    font-size: 18px;
+    font-weight: 5;
+    float: right;
+    width: 80%;
+    margin-top: 0;
+    padding:
+}
+.child_work .text_area p{
+    color: #979797;
+    font-weight: 4;
+    font-size: 13px;
+    line-height: 1.4em;
+    margin: 5px 0
+}
+.child_work .text_area a{
+   color: #e2494b;
+    font-size: 13px;
+    text-decoration: none;;
+    text-transform:uppercase;
+    display: inline-block;
+    float:left;
+    
+}
+.child_work .text_area a:hover{
+   color: rebeccapurple
+}
+
+.child_service1{
+    margin-left: 0
+}
+
+.child_service3{
+    margin-right: 0;
+}
+
+/*############################################################################################################################################
+      players area css
+############################################################################################################################################*/
+
+#players_area{
+    clear: both;
+}
+.inner_playears_area .titel{
+    padding: 5px 0;
+}
+.inner_playears_area{
+    overflow: hidden;
+}
+.profile_area{
+    width: 18.3%;
+    float: left;
+    margin: 40px 1%;
+}
+.profile_area h4 a{
+    color: #979797;
+    font-size: 14px;
+    text-decoration: none;
+}
+.profile_area h4 a span{
+    font-weight: 5;
+}
+.profile_area p{
+    color:#979797;
+    font-size: 13px;
+    margin-top:10px;
+    font-weight:5;
+    line-height: 1.4em;
+
+}
+
+.profile_area a{
+    color: #e2494b;
+    font-size: 13px;
+    text-decoration: none;
+    display:inline-block;
+
+   
+}
+
+.child_profile1{ 
+margin-left: 0}
+.child_profile5{
+    margin-right: 0
+}
+/*############################################################################################################################################
+      latest work area css
+############################################################################################################################################*/
+
+#latest_work{ 
+
+}
+.inner_latest_work .work_title{
+    padding:5px 0
+}
+.inner_latest_work{
+    overflow: hidden
+}
+.child_img img {
+    padding: 20px 0;
+    width: 31%;
+    float: left;
+    margin:20px  1.6%
+}
+.child_img_area1 img{
+    margin-left: 0;
+}
+.child_img_area3 img{
+    margin-right: 0
+}
+
+/*############################################################################################################################################
+    footer area css
+############################################################################################################################################*/
+
+#footer_area{
+    background: #e2e2e2;
+    
+}
+.footer_area{
+    overflow: hidden;
+}
+.child_footer{
+    width: 49%;
+    float: left;
+    margin: 20px 1%;
+    
+}
+.child_footer h2{
+    color:#333333 ;
+    font-size:16px ;
+    font-weight:500;
+    padding: ;
+}
+
+}
+.child_footer p{
+       color:#333333 ;
+    font-size:13px ;
+    font-weight:500;
+    padding: ;
+}
+.child_footer a{
+    text-decoration: none;
+    color: #979797
+}
+
+ .company_contact {
+    margin-right: 0;
+}
+
+.blog_area{
+    margin-left:0;
+}
+
+.child_blog{
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.child_blog img{
+    width: 23%;
+    float: left;
+    border: 1px solid #333333;
+   padding:5px
+  
+    
+}
+.child_blog .text_area{
+    width: 70%;
+    float: right;
+}
+.child_blog .text_area h3{
+    color:#e2494b ;
+    font-size:13px ;
+    font-weight:500 ;
+  
+    
+    padding-top:0;
+    margin-top: 0}
+
+    .company_contact .company_details{
+            width: 49%;
+            float: left;
+        margin-right: 1%
+    }
+
+
+.company_contact  .contact_area{
+    width: 49%;
+    float: right;
+    margin-right: 0;
+}
+
+.contact_area input{
+    background: #ffffff;
+    width: 96%;
+    padding:10px 2%;
+    border-radius: 5px;
+    border-bottom: 10px;
+    margin-bottom: 10px;
+    border: 0px solid #ffffff
+}
+
+.contact_area textarea{
+    background: #fff;
+    border: 0 solid #fff;
+    width: 96%;
+    padding: 10px 2%;
+    height: 110px;
+    border-radius: 5px;
+    
+}
+
+.contact_area input[type="subit"]{
+   
+    color: aliceblue;
+    font-weight: 900;
+    background:#e2494b;
+    cursor: pointer;
+     width: 80px;
+      border-radius: 10px;
+    text-align: center;
+  
+}
+
+.contact_area input[type="subit"]:hover{
+    background:#dd5052;
+    color: #c1b2b2
+}
+
+
+/*############################################################################################################################################
+   copyright area css
+############################################################################################################################################*/
+
+
+
+
+#copyright_area{
+    background: #e2e2e2;
+    padding: 20px 0;
+    border: 1px solid #d4d1d1;
+}
+.inner_copyrigth{
+    overflow: hidden;
+}
+.inner_copyrigth p{
+ color: #999999;
+    font-size: 13px;
+}
+.left_copyright{
+    float: left;
+    width: 60%;
+}
+.right_copyright{
+    float: right;
+    width: 40%;
+}
+
+
